@@ -1,0 +1,2244 @@
+🚀 Starting Training Process...
+Using Binance Futures (Production Data)
+Fetching data starting from 2026-01-23 09:27:35.638000...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+Final merged features: ['open', 'high', 'low', 'close', 'volume', 'rsi', 'macd', 'macd_signal', 'bb_high', 'bb_low', 'ema_20', 'close_pct', 'high_pct', 'low_pct', 'open_pct', 'log_volume', 'volume_pct', 'bb_position', 'rsi_5m', 'macd_5m', 'macd_signal_5m', 'bb_high_5m', 'bb_low_5m', 'ema_20_5m', 'close_pct_5m', 'high_pct_5m', 'low_pct_5m', 'open_pct_5m', 'log_volume_5m', 'volume_pct_5m', 'bb_position_5m', 'rsi_1h', 'macd_1h', 'macd_signal_1h', 'bb_high_1h', 'bb_low_1h', 'ema_20_1h', 'close_pct_1h', 'high_pct_1h', 'low_pct_1h', 'open_pct_1h', 'log_volume_1h', 'volume_pct_1h', 'bb_position_1h', 'rsi_1m', 'macd_1m', 'macd_signal_1m', 'bb_high_1m', 'bb_low_1m', 'ema_20_1m', 'close_pct_1m', 'high_pct_1m', 'low_pct_1m', 'open_pct_1m', 'log_volume_1m', 'volume_pct_1m', 'bb_position_1m']
+Using cpu device
+Training model with Multi-Timeframe data (100k steps)...
+Logging to ./logs/PPO_6
+-----------------------------
+| time/              |      |
+|    fps             | 623  |
+|    iterations      | 1    |
+|    time_elapsed    | 3    |
+|    total_timesteps | 2048 |
+-----------------------------
+------------------------------------------
+| time/                   |              |
+|    fps                  | 525          |
+|    iterations           | 2            |
+|    time_elapsed         | 7            |
+|    total_timesteps      | 4096         |
+| train/                  |              |
+|    approx_kl            | 0.0027756642 |
+|    clip_fraction        | 0.0136       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.41        |
+|    explained_variance   | 0.00981      |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.77e+03     |
+|    n_updates            | 10           |
+|    policy_gradient_loss | -0.00704     |
+|    std                  | 0.98         |
+|    value_loss           | 5.77e+03     |
+------------------------------------------
+------------------------------------------
+| time/                   |              |
+|    fps                  | 472          |
+|    iterations           | 3            |
+|    time_elapsed         | 13           |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0021520436 |
+|    clip_fraction        | 0.00498      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.39        |
+|    explained_variance   | 0.0951       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.2e+03      |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.00602     |
+|    std                  | 0.97         |
+|    value_loss           | 5.56e+03     |
+------------------------------------------
+------------------------------------------
+| time/                   |              |
+|    fps                  | 444          |
+|    iterations           | 4            |
+|    time_elapsed         | 18           |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 0.0030917618 |
+|    clip_fraction        | 0.0142       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.38        |
+|    explained_variance   | 0.0637       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 1.44e+03     |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.00642     |
+|    std                  | 0.957        |
+|    value_loss           | 4.39e+03     |
+------------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 453        |
+|    iterations           | 5          |
+|    time_elapsed         | 22         |
+|    total_timesteps      | 10240      |
+| train/                  |            |
+|    approx_kl            | 0.01030663 |
+|    clip_fraction        | 0.071      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.35      |
+|    explained_variance   | 0.000418   |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.09e+03   |
+|    n_updates            | 40         |
+|    policy_gradient_loss | -0.0103    |
+|    std                  | 0.907      |
+|    value_loss           | 3.82e+03   |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 461         |
+|    iterations           | 6           |
+|    time_elapsed         | 26          |
+|    total_timesteps      | 12288       |
+| train/                  |             |
+|    approx_kl            | 0.010103432 |
+|    clip_fraction        | 0.0833      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.29       |
+|    explained_variance   | -0.000525   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.92e+03    |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.00397    |
+|    std                  | 0.865       |
+|    value_loss           | 4.34e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 442         |
+|    iterations           | 7           |
+|    time_elapsed         | 32          |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.010509571 |
+|    clip_fraction        | 0.104       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.25       |
+|    explained_variance   | 8.21e-05    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.45e+03    |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0101     |
+|    std                  | 0.831       |
+|    value_loss           | 3.45e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 441         |
+|    iterations           | 8           |
+|    time_elapsed         | 37          |
+|    total_timesteps      | 16384       |
+| train/                  |             |
+|    approx_kl            | 0.013976198 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.22       |
+|    explained_variance   | 0.000114    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.21e+03    |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0106     |
+|    std                  | 0.814       |
+|    value_loss           | 3.2e+03     |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 434         |
+|    iterations           | 9           |
+|    time_elapsed         | 42          |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.019152153 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.2        |
+|    explained_variance   | -0.0021     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.65e+03    |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.0104     |
+|    std                  | 0.791       |
+|    value_loss           | 3.54e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 430         |
+|    iterations           | 10          |
+|    time_elapsed         | 47          |
+|    total_timesteps      | 20480       |
+| train/                  |             |
+|    approx_kl            | 0.023081897 |
+|    clip_fraction        | 0.175       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.15       |
+|    explained_variance   | -8.13e-05   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.48e+03    |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.00778    |
+|    std                  | 0.746       |
+|    value_loss           | 2.92e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 424         |
+|    iterations           | 11          |
+|    time_elapsed         | 53          |
+|    total_timesteps      | 22528       |
+| train/                  |             |
+|    approx_kl            | 0.024390206 |
+|    clip_fraction        | 0.205       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.11       |
+|    explained_variance   | -1.61e-05   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.1e+03     |
+|    n_updates            | 100         |
+|    policy_gradient_loss | -0.0125     |
+|    std                  | 0.72        |
+|    value_loss           | 2.62e+03    |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 417        |
+|    iterations           | 12         |
+|    time_elapsed         | 58         |
+|    total_timesteps      | 24576      |
+| train/                  |            |
+|    approx_kl            | 0.02530673 |
+|    clip_fraction        | 0.207      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.07      |
+|    explained_variance   | -8.29e-05  |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.12e+03   |
+|    n_updates            | 110        |
+|    policy_gradient_loss | -0.00204   |
+|    std                  | 0.692      |
+|    value_loss           | 2.33e+03   |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 416         |
+|    iterations           | 13          |
+|    time_elapsed         | 63          |
+|    total_timesteps      | 26624       |
+| train/                  |             |
+|    approx_kl            | 0.025406158 |
+|    clip_fraction        | 0.19        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.03       |
+|    explained_variance   | 3.22e-05    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.01e+03    |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.0041     |
+|    std                  | 0.661       |
+|    value_loss           | 2.2e+03     |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 415         |
+|    iterations           | 14          |
+|    time_elapsed         | 68          |
+|    total_timesteps      | 28672       |
+| train/                  |             |
+|    approx_kl            | 0.030365765 |
+|    clip_fraction        | 0.214       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.988      |
+|    explained_variance   | -1.41e-05   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 797         |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.00895    |
+|    std                  | 0.641       |
+|    value_loss           | 1.89e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 415         |
+|    iterations           | 15          |
+|    time_elapsed         | 73          |
+|    total_timesteps      | 30720       |
+| train/                  |             |
+|    approx_kl            | 0.043455694 |
+|    clip_fraction        | 0.244       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.966      |
+|    explained_variance   | -4.71e-05   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.17e+03    |
+|    n_updates            | 140         |
+|    policy_gradient_loss | 0.00464     |
+|    std                  | 0.632       |
+|    value_loss           | 2.14e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 416         |
+|    iterations           | 16          |
+|    time_elapsed         | 78          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.032749712 |
+|    clip_fraction        | 0.241       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.939      |
+|    explained_variance   | -3e-05      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 873         |
+|    n_updates            | 150         |
+|    policy_gradient_loss | 0.00053     |
+|    std                  | 0.609       |
+|    value_loss           | 1.86e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 417         |
+|    iterations           | 17          |
+|    time_elapsed         | 83          |
+|    total_timesteps      | 34816       |
+| train/                  |             |
+|    approx_kl            | 0.052278362 |
+|    clip_fraction        | 0.265       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.9        |
+|    explained_variance   | -6.44e-06   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 861         |
+|    n_updates            | 160         |
+|    policy_gradient_loss | 0.00514     |
+|    std                  | 0.584       |
+|    value_loss           | 1.56e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 417         |
+|    iterations           | 18          |
+|    time_elapsed         | 88          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.018786542 |
+|    clip_fraction        | 0.111       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.879      |
+|    explained_variance   | -0.276      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 763         |
+|    n_updates            | 170         |
+|    policy_gradient_loss | 0.00509     |
+|    std                  | 0.581       |
+|    value_loss           | 1.97e+03    |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 419        |
+|    iterations           | 19         |
+|    time_elapsed         | 92         |
+|    total_timesteps      | 38912      |
+| train/                  |            |
+|    approx_kl            | 0.04819522 |
+|    clip_fraction        | 0.206      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.858     |
+|    explained_variance   | -0.0328    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 634        |
+|    n_updates            | 180        |
+|    policy_gradient_loss | -0.00194   |
+|    std                  | 0.557      |
+|    value_loss           | 1.23e+03   |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 423         |
+|    iterations           | 20          |
+|    time_elapsed         | 96          |
+|    total_timesteps      | 40960       |
+| train/                  |             |
+|    approx_kl            | 0.073890254 |
+|    clip_fraction        | 0.305       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.817      |
+|    explained_variance   | -0.00125    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 487         |
+|    n_updates            | 190         |
+|    policy_gradient_loss | 0.00924     |
+|    std                  | 0.539       |
+|    value_loss           | 1.35e+03    |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 426        |
+|    iterations           | 21         |
+|    time_elapsed         | 100        |
+|    total_timesteps      | 43008      |
+| train/                  |            |
+|    approx_kl            | 0.05565278 |
+|    clip_fraction        | 0.291      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.782     |
+|    explained_variance   | -1.86e-05  |
+|    learning_rate        | 0.0003     |
+|    loss                 | 507        |
+|    n_updates            | 200        |
+|    policy_gradient_loss | 0.0153     |
+|    std                  | 0.522      |
+|    value_loss           | 1.77e+03   |
+----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 428        |
+|    iterations           | 22         |
+|    time_elapsed         | 105        |
+|    total_timesteps      | 45056      |
+| train/                  |            |
+|    approx_kl            | 0.05793102 |
+|    clip_fraction        | 0.283      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.737     |
+|    explained_variance   | -5.6e-05   |
+|    learning_rate        | 0.0003     |
+|    loss                 | 334        |
+|    n_updates            | 210        |
+|    policy_gradient_loss | 0.00205    |
+|    std                  | 0.492      |
+|    value_loss           | 1.01e+03   |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 428         |
+|    iterations           | 23          |
+|    time_elapsed         | 109         |
+|    total_timesteps      | 47104       |
+| train/                  |             |
+|    approx_kl            | 0.048116118 |
+|    clip_fraction        | 0.228       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.684      |
+|    explained_variance   | -7.15e-07   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 235         |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.00232    |
+|    std                  | 0.469       |
+|    value_loss           | 1.05e+03    |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 428         |
+|    iterations           | 24          |
+|    time_elapsed         | 114         |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.072249785 |
+|    clip_fraction        | 0.296       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.642      |
+|    explained_variance   | 3.76e-05    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 325         |
+|    n_updates            | 230         |
+|    policy_gradient_loss | 0.0121      |
+|    std                  | 0.453       |
+|    value_loss           | 760         |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 430        |
+|    iterations           | 25         |
+|    time_elapsed         | 119        |
+|    total_timesteps      | 51200      |
+| train/                  |            |
+|    approx_kl            | 0.05946483 |
+|    clip_fraction        | 0.302      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.606     |
+|    explained_variance   | -0.000236  |
+|    learning_rate        | 0.0003     |
+|    loss                 | 228        |
+|    n_updates            | 240        |
+|    policy_gradient_loss | 0.000395   |
+|    std                  | 0.436      |
+|    value_loss           | 586        |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 431         |
+|    iterations           | 26          |
+|    time_elapsed         | 123         |
+|    total_timesteps      | 53248       |
+| train/                  |             |
+|    approx_kl            | 0.039862998 |
+|    clip_fraction        | 0.23        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.574      |
+|    explained_variance   | -0.000172   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 354         |
+|    n_updates            | 250         |
+|    policy_gradient_loss | -0.0121     |
+|    std                  | 0.425       |
+|    value_loss           | 614         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 433         |
+|    iterations           | 27          |
+|    time_elapsed         | 127         |
+|    total_timesteps      | 55296       |
+| train/                  |             |
+|    approx_kl            | 0.056122035 |
+|    clip_fraction        | 0.282       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.543      |
+|    explained_variance   | -0.000873   |
+|    learning_rate        | 0.0003      |
+|    loss                 | 168         |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.00332    |
+|    std                  | 0.407       |
+|    value_loss           | 547         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 433         |
+|    iterations           | 28          |
+|    time_elapsed         | 132         |
+|    total_timesteps      | 57344       |
+| train/                  |             |
+|    approx_kl            | 0.054154433 |
+|    clip_fraction        | 0.278       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.502      |
+|    explained_variance   | 0.00692     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 209         |
+|    n_updates            | 270         |
+|    policy_gradient_loss | 0.00542     |
+|    std                  | 0.395       |
+|    value_loss           | 427         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 430         |
+|    iterations           | 29          |
+|    time_elapsed         | 137         |
+|    total_timesteps      | 59392       |
+| train/                  |             |
+|    approx_kl            | 0.070310116 |
+|    clip_fraction        | 0.251       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.47       |
+|    explained_variance   | -0.0091     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 280         |
+|    n_updates            | 280         |
+|    policy_gradient_loss | -0.000178   |
+|    std                  | 0.38        |
+|    value_loss           | 517         |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 432        |
+|    iterations           | 30         |
+|    time_elapsed         | 141        |
+|    total_timesteps      | 61440      |
+| train/                  |            |
+|    approx_kl            | 0.07048595 |
+|    clip_fraction        | 0.3        |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.437     |
+|    explained_variance   | -0.00107   |
+|    learning_rate        | 0.0003     |
+|    loss                 | 229        |
+|    n_updates            | 290        |
+|    policy_gradient_loss | 0.00659    |
+|    std                  | 0.37       |
+|    value_loss           | 551        |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 433         |
+|    iterations           | 31          |
+|    time_elapsed         | 146         |
+|    total_timesteps      | 63488       |
+| train/                  |             |
+|    approx_kl            | 0.082941405 |
+|    clip_fraction        | 0.267       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.411      |
+|    explained_variance   | -0.00572    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 171         |
+|    n_updates            | 300         |
+|    policy_gradient_loss | 0.0101      |
+|    std                  | 0.363       |
+|    value_loss           | 435         |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 433        |
+|    iterations           | 32         |
+|    time_elapsed         | 151        |
+|    total_timesteps      | 65536      |
+| train/                  |            |
+|    approx_kl            | 0.05276626 |
+|    clip_fraction        | 0.223      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.397     |
+|    explained_variance   | -0.0723    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 426        |
+|    n_updates            | 310        |
+|    policy_gradient_loss | 0.00248    |
+|    std                  | 0.357      |
+|    value_loss           | 409        |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 434         |
+|    iterations           | 33          |
+|    time_elapsed         | 155         |
+|    total_timesteps      | 67584       |
+| train/                  |             |
+|    approx_kl            | 0.042881653 |
+|    clip_fraction        | 0.209       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.386      |
+|    explained_variance   | -0.0226     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 207         |
+|    n_updates            | 320         |
+|    policy_gradient_loss | -0.00884    |
+|    std                  | 0.355       |
+|    value_loss           | 557         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 433         |
+|    iterations           | 34          |
+|    time_elapsed         | 160         |
+|    total_timesteps      | 69632       |
+| train/                  |             |
+|    approx_kl            | 0.017559007 |
+|    clip_fraction        | 0.106       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.377      |
+|    explained_variance   | -0.00293    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 343         |
+|    n_updates            | 330         |
+|    policy_gradient_loss | -0.00754    |
+|    std                  | 0.351       |
+|    value_loss           | 691         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 434         |
+|    iterations           | 35          |
+|    time_elapsed         | 165         |
+|    total_timesteps      | 71680       |
+| train/                  |             |
+|    approx_kl            | 0.009531978 |
+|    clip_fraction        | 0.0604      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.37       |
+|    explained_variance   | 0.106       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 324         |
+|    n_updates            | 340         |
+|    policy_gradient_loss | -0.0109     |
+|    std                  | 0.349       |
+|    value_loss           | 604         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 434         |
+|    iterations           | 36          |
+|    time_elapsed         | 169         |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.013248152 |
+|    clip_fraction        | 0.0583      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.364      |
+|    explained_variance   | -0.281      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 298         |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.00377    |
+|    std                  | 0.346       |
+|    value_loss           | 548         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 434         |
+|    iterations           | 37          |
+|    time_elapsed         | 174         |
+|    total_timesteps      | 75776       |
+| train/                  |             |
+|    approx_kl            | 0.017449409 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.353      |
+|    explained_variance   | -0.251      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 189         |
+|    n_updates            | 360         |
+|    policy_gradient_loss | -0.00681    |
+|    std                  | 0.342       |
+|    value_loss           | 429         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 432         |
+|    iterations           | 38          |
+|    time_elapsed         | 179         |
+|    total_timesteps      | 77824       |
+| train/                  |             |
+|    approx_kl            | 0.023194667 |
+|    clip_fraction        | 0.113       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.343      |
+|    explained_variance   | -0.108      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 85.6        |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.0061     |
+|    std                  | 0.34        |
+|    value_loss           | 377         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 432         |
+|    iterations           | 39          |
+|    time_elapsed         | 184         |
+|    total_timesteps      | 79872       |
+| train/                  |             |
+|    approx_kl            | 0.014569542 |
+|    clip_fraction        | 0.0868      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.336      |
+|    explained_variance   | 0.0302      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 179         |
+|    n_updates            | 380         |
+|    policy_gradient_loss | -0.00914    |
+|    std                  | 0.337       |
+|    value_loss           | 381         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 431         |
+|    iterations           | 40          |
+|    time_elapsed         | 189         |
+|    total_timesteps      | 81920       |
+| train/                  |             |
+|    approx_kl            | 0.030412147 |
+|    clip_fraction        | 0.113       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.33       |
+|    explained_variance   | 0.137       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 117         |
+|    n_updates            | 390         |
+|    policy_gradient_loss | -0.00738    |
+|    std                  | 0.335       |
+|    value_loss           | 317         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 428         |
+|    iterations           | 41          |
+|    time_elapsed         | 195         |
+|    total_timesteps      | 83968       |
+| train/                  |             |
+|    approx_kl            | 0.009617971 |
+|    clip_fraction        | 0.0785      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.323      |
+|    explained_variance   | 0.196       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 379         |
+|    n_updates            | 400         |
+|    policy_gradient_loss | -0.0102     |
+|    std                  | 0.333       |
+|    value_loss           | 395         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 427         |
+|    iterations           | 42          |
+|    time_elapsed         | 201         |
+|    total_timesteps      | 86016       |
+| train/                  |             |
+|    approx_kl            | 0.022974877 |
+|    clip_fraction        | 0.098       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.314      |
+|    explained_variance   | 0.297       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 199         |
+|    n_updates            | 410         |
+|    policy_gradient_loss | -0.0106     |
+|    std                  | 0.329       |
+|    value_loss           | 405         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 428         |
+|    iterations           | 43          |
+|    time_elapsed         | 205         |
+|    total_timesteps      | 88064       |
+| train/                  |             |
+|    approx_kl            | 0.021587458 |
+|    clip_fraction        | 0.116       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.299      |
+|    explained_variance   | 0.454       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 614         |
+|    n_updates            | 420         |
+|    policy_gradient_loss | -0.00663    |
+|    std                  | 0.324       |
+|    value_loss           | 402         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 428         |
+|    iterations           | 44          |
+|    time_elapsed         | 210         |
+|    total_timesteps      | 90112       |
+| train/                  |             |
+|    approx_kl            | 0.037332922 |
+|    clip_fraction        | 0.134       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.286      |
+|    explained_variance   | 0.388       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 99.1        |
+|    n_updates            | 430         |
+|    policy_gradient_loss | -0.0109     |
+|    std                  | 0.32        |
+|    value_loss           | 357         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 429         |
+|    iterations           | 45          |
+|    time_elapsed         | 214         |
+|    total_timesteps      | 92160       |
+| train/                  |             |
+|    approx_kl            | 0.040216357 |
+|    clip_fraction        | 0.132       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.275      |
+|    explained_variance   | 0.431       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 128         |
+|    n_updates            | 440         |
+|    policy_gradient_loss | -0.0049     |
+|    std                  | 0.317       |
+|    value_loss           | 381         |
+-----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 428        |
+|    iterations           | 46         |
+|    time_elapsed         | 219        |
+|    total_timesteps      | 94208      |
+| train/                  |            |
+|    approx_kl            | 0.03188055 |
+|    clip_fraction        | 0.155      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.265     |
+|    explained_variance   | 0.427      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 170        |
+|    n_updates            | 450        |
+|    policy_gradient_loss | -0.00258   |
+|    std                  | 0.313      |
+|    value_loss           | 529        |
+----------------------------------------
+----------------------------------------
+| time/                   |            |
+|    fps                  | 429        |
+|    iterations           | 47         |
+|    time_elapsed         | 224        |
+|    total_timesteps      | 96256      |
+| train/                  |            |
+|    approx_kl            | 0.03524991 |
+|    clip_fraction        | 0.161      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.252     |
+|    explained_variance   | 0.511      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 104        |
+|    n_updates            | 460        |
+|    policy_gradient_loss | -0.00187   |
+|    std                  | 0.309      |
+|    value_loss           | 236        |
+----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 429         |
+|    iterations           | 48          |
+|    time_elapsed         | 228         |
+|    total_timesteps      | 98304       |
+| train/                  |             |
+|    approx_kl            | 0.024748825 |
+|    clip_fraction        | 0.132       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.242      |
+|    explained_variance   | 0.607       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 132         |
+|    n_updates            | 470         |
+|    policy_gradient_loss | -0.0063     |
+|    std                  | 0.307       |
+|    value_loss           | 329         |
+-----------------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 430         |
+|    iterations           | 49          |
+|    time_elapsed         | 233         |
+|    total_timesteps      | 100352      |
+| train/                  |             |
+|    approx_kl            | 0.038989108 |
+|    clip_fraction        | 0.145       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.232      |
+|    explained_variance   | 0.337       |
+|    learning_rate        | 0.0003      |
+|    loss                 | 92.3        |
+|    n_updates            | 480         |
+|    policy_gradient_loss | -0.00115    |
+|    std                  | 0.304       |
+|    value_loss           | 391         |
+-----------------------------------------
+Model saved to models/ppo_trading_bot
+✅ Training completed successfully.
+🔄 Starting Trading Bot...
+🚀 INITIALIZING LIVE TRADING SESSION
+[LIVE] Connected to Binance Futures DEMO TRADING
+[LIVE] Max leverage set to 20.0x
+[LIVE] Initial balance: $4,458.03
+Using Binance Futures (Production Data)
+Using Binance Futures (Production Data)
+[Storage] Connected to MongoDB Atlas successfully.
+Model loaded successfully (Timestamp: 1770888702.628446)
+Fetching BTC/USDT 1m data...
+[Collector] Started data collection for BTC/USDT
+Bot started.
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+--- Cycle at 18:31:52 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67215.80 | Raw Target: -1.65x | Smoothed: 1.34x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.261 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[LIVE] Order filled: BUY 0.174 @ $67,256.00 | Fee: $8.78 | Realized: $-2.24 | Position: CLOSE 0.00x
+Action result: CLOSE 0.0x
+--- Cycle at 18:32:06 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Fetching positions for BTC/USDT...
+Price: 67224.10 | Raw Target: 5.84x | Smoothed: 2.69x
+[DEBUG] Fetching positions for BTC/USDT...
+[LIVE] Placing BUY market order: 0.174 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.174 @ $67,256.00 | Fee: $5.87 | Realized: $0.00 | Position: LONG 2.63x
+Action result: LONG 2.6x
+--- Cycle at 18:32:18 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67220.00 | Raw Target: 5.34x | Smoothed: 3.49x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.051 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.051 @ $67,256.00 | Fee: $1.74 | Realized: $0.00 | Position: LONG 3.41x
+Action result: LONG 3.4x
+--- Cycle at 18:32:30 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67220.10 | Raw Target: 1.39x | Smoothed: 2.86x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.04 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.04 @ $67,223.50 | Fee: $1.35 | Realized: $-1.30 | Position: LONG 2.80x
+Action result: LONG 2.8x
+--- Cycle at 18:32:42 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67221.90 | Raw Target: 7.63x | Smoothed: 4.29x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.092 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.092 @ $67,256.00 | Fee: $3.11 | Realized: $0.00 | Position: LONG 4.20x
+Action result: LONG 4.2x
+--- Cycle at 18:32:54 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 1m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67265.90 | Raw Target: 9.69x | Smoothed: 5.91x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.105 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.105 @ $67,224.10 | Fee: $3.55 | Realized: $0.00 | Position: LONG 5.78x
+Action result: LONG 5.8x
+--- Cycle at 18:33:06 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67281.30 | Raw Target: -6.91x | Smoothed: 2.06x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.248 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.248 @ $67,221.87 | Fee: $8.35 | Realized: $-6.29 | Position: LONG 2.04x
+Action result: LONG 2.0x
+--- Cycle at 18:33:18 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67279.00 | Raw Target: -4.98x | Smoothed: -0.05x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.137 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[LIVE] Order filled: SELL 0.134 @ $67,222.66 | Fee: $4.62 | Realized: $-3.29 | Position: CLOSE 0.00x
+Action result: CLOSE 0.0x
+--- Cycle at 18:33:30 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Fetching positions for BTC/USDT...
+Price: 67293.10 | Raw Target: -6.61x | Smoothed: -2.02x
+[DEBUG] Fetching positions for BTC/USDT...
+[LIVE] Placing SELL market order: 0.129 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.129 @ $67,221.80 | Fee: $4.37 | Realized: $0.00 | Position: SHORT 1.97x
+Action result: SHORT 2.0x
+--- Cycle at 18:33:42 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67292.20 | Raw Target: -10.24x | Smoothed: -4.48x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.158 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.158 @ $67,222.06 | Fee: $5.33 | Realized: $0.00 | Position: SHORT 4.40x
+Action result: SHORT 4.4x
+--- Cycle at 18:33:54 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67320.00 | Raw Target: 0.59x | Smoothed: -2.96x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.098 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.098 @ $67,290.00 | Fee: $3.32 | Realized: $-6.67 | Position: SHORT 2.91x
+Action result: SHORT 2.9x
+--- Cycle at 18:34:06 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67423.70 | Raw Target: -9.59x | Smoothed: -4.95x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.125 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.125 @ $67,289.10 | Fee: $4.22 | Realized: $0.00 | Position: SHORT 4.87x
+Action result: SHORT 4.9x
+--- Cycle at 18:34:18 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67415.00 | Raw Target: -7.34x | Smoothed: -5.67x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.043 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.043 @ $67,289.10 | Fee: $1.48 | Realized: $0.00 | Position: SHORT 5.55x
+Action result: SHORT 5.5x
+--- Cycle at 18:34:30 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67420.60 | Raw Target: -6.53x | Smoothed: -5.93x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.016 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.016 @ $67,359.16 | Fee: $0.56 | Realized: $0.00 | Position: SHORT 5.80x
+Action result: SHORT 5.8x
+--- Cycle at 18:34:42 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67410.00 | Raw Target: -4.70x | Smoothed: -5.56x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.022 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.022 @ $67,406.50 | Fee: $0.76 | Realized: $-3.27 | Position: SHORT 5.46x
+Action result: SHORT 5.5x
+--- Cycle at 18:34:54 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67439.00 | Raw Target: 1.26x | Smoothed: -3.51x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.129 BTC/USDT (reduceOnly=True)
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.129 @ $67,407.90 | Fee: $4.38 | Realized: $-19.33 | Position: SHORT 3.46x
+Action result: SHORT 3.5x
+--- Cycle at 18:35:06 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67399.50 | Raw Target: -0.96x | Smoothed: -2.75x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.048 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.048 @ $67,415.40 | Fee: $1.64 | Realized: $-7.55 | Position: SHORT 2.71x
+Action result: SHORT 2.7x
+--- Cycle at 18:35:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67399.40 | Raw Target: -6.15x | Smoothed: -3.77x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.063 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.063 @ $67,399.60 | Fee: $2.14 | Realized: $0.00 | Position: SHORT 3.69x
+Action result: SHORT 3.7x
+--- Cycle at 18:35:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67378.30 | Raw Target: -14.63x | Smoothed: -7.03x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.206 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.206 @ $67,388.20 | Fee: $6.94 | Realized: $0.00 | Position: SHORT 6.90x
+Action result: SHORT 6.9x
+--- Cycle at 18:35:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67408.10 | Raw Target: -5.46x | Smoothed: -6.56x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.031 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.031 @ $67,401.50 | Fee: $1.05 | Realized: $-1.95 | Position: SHORT 6.43x
+Action result: SHORT 6.4x
+--- Cycle at 18:35:53 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67409.60 | Raw Target: -5.59x | Smoothed: -6.27x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.018 BTC/USDT (reduceOnly=True)
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.018 @ $67,415.90 | Fee: $0.63 | Realized: $-1.39 | Position: SHORT 6.15x
+Action result: SHORT 6.2x
+--- Cycle at 18:36:05 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67400.00 | Raw Target: -8.49x | Smoothed: -6.93x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.04 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.04 @ $67,416.10 | Fee: $1.36 | Realized: $0.00 | Position: SHORT 6.80x
+Action result: SHORT 6.8x
+--- Cycle at 18:36:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67429.70 | Raw Target: 4.18x | Smoothed: -3.60x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.208 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.208 @ $67,419.10 | Fee: $7.03 | Realized: $-15.24 | Position: SHORT 3.54x
+Action result: SHORT 3.5x
+--- Cycle at 18:36:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67428.20 | Raw Target: -14.46x | Smoothed: -6.86x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.203 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.203 @ $67,417.90 | Fee: $6.85 | Realized: $0.00 | Position: SHORT 6.73x
+Action result: SHORT 6.7x
+--- Cycle at 18:36:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67414.60 | Raw Target: 0.45x | Smoothed: -4.67x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.136 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.136 @ $67,420.80 | Fee: $4.59 | Realized: $-5.56 | Position: SHORT 4.58x
+Action result: SHORT 4.6x
+--- Cycle at 18:36:53 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67378.70 | Raw Target: 3.77x | Smoothed: -2.14x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.159 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.159 @ $67,420.80 | Fee: $5.36 | Realized: $-6.50 | Position: SHORT 2.10x
+Action result: SHORT 2.1x
+Fetching BTC/USDT 1m data...
+--- Cycle at 18:37:05 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67382.90 | Raw Target: -12.58x | Smoothed: -5.27x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.195 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.195 @ $67,387.10 | Fee: $6.59 | Realized: $0.00 | Position: SHORT 5.16x
+Action result: SHORT 5.2x
+--- Cycle at 18:37:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67378.10 | Raw Target: -13.08x | Smoothed: -7.61x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.146 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.146 @ $67,379.93 | Fee: $4.94 | Realized: $0.00 | Position: SHORT 7.45x
+Action result: SHORT 7.5x
+--- Cycle at 18:37:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67360.10 | Raw Target: -6.19x | Smoothed: -7.19x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.025 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.025 @ $67,386.54 | Fee: $0.85 | Realized: $-0.09 | Position: SHORT 7.05x
+Action result: SHORT 7.0x
+--- Cycle at 18:37:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67376.80 | Raw Target: -17.59x | Smoothed: -10.31x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.193 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.193 @ $67,368.60 | Fee: $6.52 | Realized: $0.00 | Position: SHORT 10.10x
+Action result: SHORT 10.1x
+--- Cycle at 18:37:53 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67376.80 | Raw Target: -7.99x | Smoothed: -9.61x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.044 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.044 @ $67,390.66 | Fee: $1.49 | Realized: $-0.53 | Position: SHORT 9.43x
+Action result: SHORT 9.4x
+Fetching BTC/USDT 1m data...
+--- Cycle at 18:38:05 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67382.40 | Raw Target: -8.01x | Smoothed: -9.13x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.03 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.03 @ $67,391.40 | Fee: $1.04 | Realized: $-0.38 | Position: SHORT 8.96x
+Action result: SHORT 9.0x
+--- Cycle at 18:38:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67388.60 | Raw Target: 0.17x | Smoothed: -6.34x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.175 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.175 @ $67,391.40 | Fee: $5.90 | Realized: $-2.24 | Position: SHORT 6.22x
+Action result: SHORT 6.2x
+--- Cycle at 18:38:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67362.10 | Raw Target: 6.50x | Smoothed: -2.49x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.239 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.239 @ $67,393.80 | Fee: $8.06 | Realized: $-3.63 | Position: SHORT 2.45x
+Action result: SHORT 2.4x
+--- Cycle at 18:38:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67379.10 | Raw Target: -15.43x | Smoothed: -6.37x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.24 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.24 @ $67,377.50 | Fee: $8.10 | Realized: $0.00 | Position: SHORT 6.25x
+Action result: SHORT 6.2x
+--- Cycle at 18:38:53 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67357.00 | Raw Target: -3.35x | Smoothed: -5.47x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.055 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.055 @ $67,379.10 | Fee: $1.87 | Realized: $-0.06 | Position: SHORT 5.37x
+Action result: SHORT 5.4x
+Fetching BTC/USDT 1m data...
+--- Cycle at 18:39:05 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67353.90 | Raw Target: -5.93x | Smoothed: -5.61x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.007 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.007 @ $67,359.40 | Fee: $0.27 | Realized: $0.00 | Position: SHORT 5.48x
+Action result: SHORT 5.5x
+--- Cycle at 18:39:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67359.10 | Raw Target: -12.68x | Smoothed: -7.73x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.132 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.132 @ $67,358.90 | Fee: $4.46 | Realized: $0.00 | Position: SHORT 7.57x
+Action result: SHORT 7.6x
+--- Cycle at 18:39:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67340.80 | Raw Target: -8.10x | Smoothed: -7.84x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.007 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.007 @ $67,358.00 | Fee: $0.26 | Realized: $0.00 | Position: SHORT 7.67x
+Action result: SHORT 7.7x
+--- Cycle at 18:39:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67340.90 | Raw Target: -3.47x | Smoothed: -6.53x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.08 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.08 @ $67,360.10 | Fee: $2.71 | Realized: $0.97 | Position: SHORT 6.41x
+Action result: SHORT 6.4x
+--- Cycle at 18:39:53 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67340.80 | Raw Target: -4.73x | Smoothed: -5.99x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.034 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.034 @ $67,360.10 | Fee: $1.16 | Realized: $0.41 | Position: SHORT 5.88x
+Action result: SHORT 5.9x
+Fetching BTC/USDT 1m data...
+--- Cycle at 18:40:05 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67340.80 | Raw Target: 2.34x | Smoothed: -3.49x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing BUY market order: 0.155 BTC/USDT (reduceOnly=True)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: BUY 0.155 @ $67,360.10 | Fee: $5.25 | Realized: $1.88 | Position: SHORT 3.44x
+Action result: SHORT 3.4x
+--- Cycle at 18:40:17 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67347.80 | Raw Target: -7.86x | Smoothed: -4.80x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.08 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.08 @ $67,358.00 | Fee: $2.70 | Realized: $0.00 | Position: SHORT 4.70x
+Action result: SHORT 4.7x
+--- Cycle at 18:40:29 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...
+Fetching BTC/USDT 1h data...
+Fetching BTC/USDT 1m data...
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+Price: 67342.60 | Raw Target: -6.27x | Smoothed: -5.24x
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Placing SELL market order: 0.027 BTC/USDT (reduceOnly=False)
+[DEBUG] Fetching positions for BTC/USDT...
+[DEBUG] Checking pos symbol: 'BTC/USDT:USDT' vs target 'BTC/USDT' or 'BTCUSDT'
+[DEBUG] MATCH FOUND for BTC/USDT:USDT!
+[LIVE] Order filled: SELL 0.027 @ $67,358.00 | Fee: $0.93 | Realized: $0.00 | Position: SHORT 5.13x
+Action result: SHORT 5.1x
+--- Cycle at 18:40:41 ---
+Fetching BTC/USDT 5m data...
+Fetching BTC/USDT 15m data...

@@ -1,0 +1,13 @@
+ccxt
+pandas
+numpy
+gymnasium
+stable-baselines3>=2.0.0
+ta
+python-dotenv
+matplotlib
+tensorboard
+pymongo
+dnspython
+streamlit
+altair
