@@ -259,6 +259,10 @@ class TradingBot:
         # Start Collector
         self.collector.start()
         
+        # Start Self-Play Training
+        self.self_play_process = subprocess.Popen([sys.executable, "src/agent/train.py"])
+        print(f"✅ Self-Play training started (PID: {self.self_play_process.pid}).")
+        
         self.thread = threading.Thread(target=self._run_loop, daemon=True)
         self.thread.start()
         print("Bot started.")

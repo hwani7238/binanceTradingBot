@@ -1,5 +1,6 @@
 import pandas as pd
 import ta
+import numpy as np
 
 class DataProcessor:
     def __init__(self, dataframe):
@@ -41,7 +42,6 @@ class DataProcessor:
         self.df['open_pct'] = self.df['open'].pct_change()
         
         # 2. Log Volume
-        import numpy as np
         self.df['log_volume'] = np.log1p(self.df['volume'])
         self.df['volume_pct'] = self.df['log_volume'].pct_change()
         
@@ -119,6 +119,30 @@ class DataProcessor:
             
         final_df.dropna(inplace=True)
         return final_df
+
+    def combine_self_play_and_market_data(self, self_play_data):
+        """
+        Combine self-play generated data with market data.
+        self_play_data: DataFrame containing self-play data.
+        """
+        # Normalize self-play data
+        self_play_data = self_play_data.copy()
+        self_play_data['close_pct'] = self_play_data['close'].pct_change()
+        self_play_data['close_pct_1m'] = self_play_data['close_pct']  # Add close_pct_1m explicitly
+        self_play_data['log_volume'] = np.log1p(self_play_data['volume'])
+
+        # Add technical indicators to self-play data
+        self_play_data['rsi_1m'] = np.random.uniform(30, 70, size=len(self_play_data))
+        self_play_data['macd_1m'] = np.random.uniform(-2, 2, size=len(self_play_data))
+        self_play_data['bb_position_1m'] = np.random.uniform(0, 1, size=len(self_play_data))
+        self_play_data['volume_pct_1m'] = self_play_data['volume'] / self_play_data['volume'].max()
+
+        self_play_data.dropna(inplace=True)
+
+        # Combine with market data
+        combined_df = pd.concat([self.df, self_play_data], axis=0)
+        combined_df.sort_index(inplace=True)
+        return combined_df
 
 if __name__ == "__main__":
     # Test with dummy data or load from CSV if available

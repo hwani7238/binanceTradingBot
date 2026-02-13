@@ -47,3 +47,5 @@ ENV/
 bot_log.txt
 live_trades.json
 logs/
+logs/
+model_checkpoints/
